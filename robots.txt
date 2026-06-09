@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.cibelebarbosa.com.br/sitemap.xml
+Sitemap: https://www.cibeleneuropsicologa.com.br/sitemap.xml
