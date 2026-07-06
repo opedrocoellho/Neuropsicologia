@@ -68,14 +68,27 @@ Ao alterar uma pagina, mantenha o titulo unico e a description natural, com cerc
 
 ## Criar uma postagem de blog
 
-Ainda nao existe pasta de blog. Se for criada, usar estrutura como:
+O blog usa paginas HTML estaticas no mesmo nivel da home:
 
 ```text
-blog/
-  quando-procurar-avaliacao-neuropsicologica.html
+blog.html
+quando-procurar-avaliacao-neuropsicologica.html
+avaliacao-tdah-adolescentes.html
+memoria-idosos-avaliacao.html
+sinais-tdah-criancas.html
+autismo-adolescentes-avaliacao.html
+psicoterapia-e-avaliacao-neuropsicologica.html
 ```
 
-Cada postagem deve ter um tema especifico, H1 unico, canonical, FAQ quando fizer sentido e links internos para paginas de servico.
+Para criar um novo artigo:
+
+1. Copie um artigo existente.
+2. Atualize title, description, canonical, Open Graph e Twitter Card.
+3. Mantenha apenas um H1.
+4. Use linguagem educativa e etica, sem prometer diagnostico ou resultado.
+5. Adicione links internos para paginas de servico relacionadas.
+6. Inclua o novo artigo em `blog.html`.
+7. Inclua a URL nova em `sitemap.xml`.
 
 ## Validar dados estruturados
 
