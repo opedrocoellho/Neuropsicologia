@@ -24,8 +24,7 @@
     }
 
     window.gtag("event", eventName, {
-      link_text: link.textContent.trim(),
-      link_url: link.href,
+      link_position: link.dataset.ctaPosition || "other",
       page_path: window.location.pathname,
     });
   };
